@@ -1,0 +1,7 @@
+- name: Print
+  hosts: all
+  tasks: 
+    - name: Print with debug
+      ansible.builtin.debug:
+        msg: "Bug"
+
