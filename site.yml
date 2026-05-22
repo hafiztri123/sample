@@ -1,0 +1,8 @@
+- name: site
+  hosts: all
+  tasks:
+    - name: Ensure /etc/motd has the right content
+      ansible.builtin.copy:
+        content: "Ansible managed"
+        dest: /etc/motd
+
