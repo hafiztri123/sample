@@ -1,0 +1,7 @@
+[webservers]
+node2.lab.internal
+node3.lab.internal
+
+[db]
+node4.lab.internal
+node5.lab.internal
